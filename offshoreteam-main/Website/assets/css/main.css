@@ -2818,9 +2818,9 @@ START: Header CSS
   font-family: "Hind Madurai", sans-serif;
   color: var(--rr-color-common-white);
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   padding: 35px 0;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-weight: 600;
   text-transform: uppercase;
   position: relative;
@@ -2955,7 +2955,7 @@ START: Header CSS
   position: relative;
 }
 .header .primary-header-inner .header-menu-wrap ul .menu-item-has-children a {
-  padding-right: 17px;
+  padding-right: 12px;
 }
 @media (max-width: 1170px) {
   .header .primary-header-inner .header-menu-wrap ul .menu-item-has-children a {
@@ -3012,9 +3012,10 @@ START: Header CSS
   }
 }
 .header .primary-header-inner .header-right-wrap .header-right .sidebar-trigger {
-  height: 80px;
-  width: 80px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
+  margin-left: 70px;
   border: 1px solid var(--rr-color-common-white);
   display: flex;
   align-items: center;
@@ -4282,7 +4283,7 @@ START: Hero CSS
   }
 }
 .hero-content .sub-title {
-  font-size: 50px;
+  font-size: 30px;
   font-weight: 700;
 }
 @media only screen and (max-width: 992px) {
@@ -4296,8 +4297,8 @@ START: Hero CSS
   }
 }
 .hero-content .title {
-  font-size: 135px;
-  font-weight: 800;
+  font-size: 100px;
+  font-weight: 600;
   line-height: 1;
   display: inline-block;
   position: relative;
@@ -4325,7 +4326,7 @@ START: Hero CSS
   opacity: 0.95;
 }
 .hero-content .bottom-title {
-  font-size: 75px;
+  font-size: 45px;
   font-weight: 700;
   margin-bottom: 40px;
 }
@@ -10088,7 +10089,8 @@ START: Sidebar CSS
   border-left: 1px solid var(--rr-color-border-1);
   position: fixed;
   right: 0;
-  top: 0;
+  top: 0
+  left: 140px;
   transform: translateX(100%);
   width: 450px;
   height: 100%;
@@ -15479,3 +15481,12 @@ START: Footer CSS
 }
 
 /*# sourceMappingURL=main.css.map */
+.font22 {
+  font-size: 22px !important;
+  }
+  .margin{
+    margin-left: 70px !important;
+  }
+  .margin2{
+    margin-left: 140px !important;
+  }
