@@ -2771,7 +2771,7 @@ START: Header CSS
 }
 @media (max-width: 1399px) {
   .header .primary-header-inner .header-logo img {
-    max-width: 150px;
+    max-width: 120px;
   }
 }
 @media (max-width: 1170px) {
