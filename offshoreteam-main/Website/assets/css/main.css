@@ -15498,6 +15498,6 @@ START: Footer CSS
 .width-auto{
   width: auto;
 }
-
-
-
+.width-100{
+  width: 100% ;
+}
