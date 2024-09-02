@@ -50,7 +50,7 @@ START: Template Default CSS
   --rr-color-text-body-light: #74787C;
   --rr-color-theme-primary: #3F5AF3;
   --rr-color-theme-secondary: #ffc226;
-  --rr-color-bg-1: #F8F8F8;
+  --rr-color-bg-1:#0a0a0a;
   --rr-color-grey-1: #F8F8F8;
   --rr-color-grey-2: #2D343E;
   --rr-color-grey-light: #F2F3F4;
@@ -575,8 +575,8 @@ ul {
 }
 
 img {
-  height: 75%;
-  width: 75%;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   transform-origin: left;
 }
@@ -2816,7 +2816,7 @@ START: Header CSS
 }
 .header .primary-header-inner .header-menu-wrap ul li a {
   font-family: "Hind Madurai", sans-serif;
-  color: var(--rr-color-common-black);
+  color: var(--rr-color-common-white);
   display: block;
   font-size: 15px;
   padding: 35px 0;
@@ -4296,7 +4296,7 @@ START: Hero CSS
   }
 }
 .hero-content .title {
-  font-size: 100px;
+  font-size: 120px;
   font-weight: 600;
   line-height: 1;
   display: inline-block;
@@ -5312,7 +5312,7 @@ process-item-2 .icon {
   color: var(--rr-color-theme-primary);
 }
 .process-item-2:hover span {
-  color: var(--rr-color-common-white);
+  color: #3f5af3;
 }
 .process-item-2:hover p {
   color: var(--rr-color-common-white);
@@ -7055,7 +7055,7 @@ START: Faq CSS
   margin-bottom: 0;
   position: absolute;
   top: 30px;
-  left: 30px;
+  left: 70px;
 }
 .faq-sponsor .sponsor-text-2 {
   background-color: var(--rr-color-theme-primary);
@@ -13899,7 +13899,7 @@ START: Footer CSS
   margin-bottom: 45px;
 }
 .footer-widget .widget-header .footer-logo {
-  max-width: 170px;
+  max-width: 120px;
 }
 .footer-widget .widget-header .widget-title {
   color: var(--rr-color-common-white);
@@ -14405,7 +14405,7 @@ START: Footer CSS
 [data-theme=light] h1,
 [data-theme=light] h2,
 [data-theme=light] h3,
-[data-theme=light] h4,
+[data-theme=dark] h4,
 [data-theme=light] h5,
 [data-theme=light] h6 {
   color: var(--rr-color-heading-primary);
@@ -14950,7 +14950,7 @@ START: Footer CSS
   color: var(--rr-color-common-black);
 }
 [data-theme=light] .inner-header.fixed {
-  background-color: var(--rr-color-bg-1);
+  background-color: var(#f8f8f8);
   border: none;
 }
 
@@ -15518,6 +15518,9 @@ START: Footer CSS
 [data-header=dark] .header.fixed .primary-header-inner .header-menu-wrap ul li a:hover{
   color: var(--rr-color-theme-primary);
 }
+[data-header=dark] .header:not(fixed) .primary-header-inner .header-menu-wrap ul li a:hover{
+  color: var(--rr-color-theme-primary);
+}
 [data-header=dark] .header.fixed .primary-header-inner .header-right-wrap .header-right .sidebar-trigger {
   border-color: var(--rr-color-common-white);
 }
@@ -15538,4 +15541,24 @@ START: Footer CSS
 }
 [data-header=dark] .header .primary-header-inner .header-right-wrap .header-right .sidebar-trigger svg {
   color: var(#f2f3f4);
+}
+.quote{
+  
+  background-color: #f2f3f4 !important;
+}
+.title2{
+  color:black !important;
+}
+.arrow-list li {
+  list-style: none; /* Remove default bullets */
+  position: relative;
+  padding-left: 20px; /* Space for the arrow */
+}
+
+.arrow-list li::before {
+  content: '→'; /* Unicode character for an arrow */
+  position: absolute;
+  left: 0;
+  color: #000; /* Arrow color */
+  font-weight: bold;
 }
