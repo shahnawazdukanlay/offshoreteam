@@ -14408,7 +14408,7 @@ START: Footer CSS
 [data-theme=dark] h4,
 [data-theme=light] h5,
 [data-theme=light] h6 {
-  color: var(--rr-color-heading-primary);
+  color: var(--rr-color-heading-white);
 }
 [data-theme=light] p {
   color: #74787C;
