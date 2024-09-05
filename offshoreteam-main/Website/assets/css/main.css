@@ -2819,15 +2819,16 @@ START: Header CSS
   font-family: "Hind Madurai", sans-serif;
   color: var(--rr-color-common-white);
   display: block;
-  font-size: 15px;
-  padding: 10px 0;
-  letter-spacing:px;
+  font-size: 18px;
+  padding: 15px 6px;
+  letter-spacing:2px;
   font-weight: 1000px;
   text-transform: uppercase;
   position: relative;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
   transition: all 0.3s ease-in-out;
+  align-items: center;
 }
 @media (max-width: 1170px) {
   .header .primary-header-inner .header-menu-wrap ul li a {
@@ -14402,7 +14403,7 @@ START: Footer CSS
 /* Common Colors */
 [data-theme=light] body {
   background-color: var(--rr-color-common-white);
-  color: #74787C;
+  color: #070707;
 }
 
 [data-theme=light] h1,
@@ -15570,3 +15571,11 @@ START: Footer CSS
   color: #000; /* Arrow color */
   font-weight: bold;
 }
+@media only screen and (max-width: 992px) {
+  .h2-hero{
+    margin-top: 170px;
+  } .h3-hero{
+    margin-top: 30px;
+  }
+
+
