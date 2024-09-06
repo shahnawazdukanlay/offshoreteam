@@ -15577,5 +15577,7 @@ START: Footer CSS
   } .h3-hero{
     margin-top: 30px;
   }
-
-
+  image-s{
+    width:70% !important;
+    height: 70% !important;
+  }
