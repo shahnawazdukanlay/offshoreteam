@@ -15497,7 +15497,7 @@ START: Footer CSS
   font-size: 22px !important;
   }
   .margin{
-    margin-left: 70px !important;
+    margin-left: 0px !important;
   }
   .margin2{
     margin-left: 140px !important;
@@ -15571,13 +15571,50 @@ START: Footer CSS
   color: #000; /* Arrow color */
   font-weight: bold;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px){
   .h2-hero{
     margin-top: 170px;
-  } .h3-hero{
+  }
+} 
+  .h3-hero{
     margin-top: 30px;
   }
   image-s{
     width:70% !important;
     height: 70% !important;
   }
+   
+    .slogan {
+      display: inline-block;
+      font-size: 24px;
+      color:black;
+     border:1px solid black;
+      font-size: 20px;
+      font-weight: 70px;
+      padding-block: 10px;
+      padding-right:10px;
+      padding-left: 10px;
+      text-align: center;
+      margin-top: 0px !important;
+        position: relative;
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 24px;
+        /* Starting point (off-screen to the right) */
+        transform: translateX(100%);
+        animation: slideIn 4s forwards;
+      }
+      
+      @keyframes slideIn {
+        0% {
+          transform: translateX(100%); /* Start from the right */
+        }
+        50% {
+          transform: translateX(-100%); /* Move off-screen to the left */
+        }
+        100% {
+          transform: translateX(0); /* Final position (fixed point) */
+        }
+      }
+      
