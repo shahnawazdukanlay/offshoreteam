@@ -15589,3 +15589,7 @@ START: Footer CSS
     font-size:20px;
     padding: 5px;
   }
+  margin-text{
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+  }
