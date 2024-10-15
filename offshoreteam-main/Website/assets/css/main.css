@@ -15577,7 +15577,7 @@ START: Footer CSS
   }
 } 
   .h3-hero{
-    margin-top: 30px;
+    margin-top: 5px;
   }
   image-s{
     width:70% !important;
@@ -15592,4 +15592,11 @@ START: Footer CSS
   margin-text{
     margin-left: 3px !important;
     margin-right: 3px !important;
+  }
+  headings{
+    font-size: 10px;
+  }
+  .headings{
+    font-size: 20px !important;
+    color: white !important;
   }
